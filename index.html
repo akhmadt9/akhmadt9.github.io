@@ -1,1 +1,441 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000"/>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/mdb.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Simpang Village Sablon</title>
+  </head>
+  <body class="designer black">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Simpang Village</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#motto" data-offset="100">Motto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio" data-offset="90">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" data-offset="100">Contact</a>
+            </li>
+          </ul>
+          <!-- Social Icon  -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/akhmadzm/" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://api.whatsapp.com/send?phone=0895379288255" class="nav-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="black">
+    <div class="container text-center black" id="body-content">
+      <div class="row row-cols-1 space black wow" id="home"></div>
+
+      <div class="row row-cols-1 black wow" id="logo">
+        <div class="col text-center animated fadeInDown">
+          <img class="img-fluid logo p-2" src="./assets/img/logo.png" alt="Simpang Village Sablon">
+          <!-- h4 class="text-white p-2">Simpang Village Sablon Manual</h4 -->
+        </div>
+      </div>
+
+      <div class="row row-cols-1 text-white wow" id="motto" data-wow-delay="0.3s">
+        <div class="col mb-4">
+          <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3">
+            <div class="col animated fadeInLeft">
+              <h4>Cepat + Murah</h4>
+              <span class="motto-text">Jangan Minta Bagus</span>
+            </div>
+            <div class="col animated fadeIn">
+              <h4>Bagus + Cepat</h4>
+              <span class="motto-text">Jangan Minta Murah</span>
+            </div>
+            <div class="col animated fadeInRight">
+              <h4>Murah + Bagus</h4>
+              <span class="motto-text">Jangan Minta Cepat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 text-white wow" id="proses" data-wow-delay="0.3s">
+        <div class="col mb-4">
+          <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3">
+            <div class="col animated fadeInUp">
+              <h1 class="prog text-red accent-4"><span id="value">0</span>% Proses Boss!!</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 wow" id="portfolio" data-wow-delay="0.3s">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body p-0 pb-1">
+              <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+                <div class="controls-top mt-3 mb-3">
+                  <h2 id="gallery-title">Gallery Sablon</h2>
+                </div>
+
+                <ol class="carousel-indicators animated fadeIn">
+                  <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+                  <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+                  <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+                  <li data-target="#carousel-example-multi" data-slide-to="5"></li>
+                </ol>
+
+                <div class="carousel-inner v-2 mdb-lightbox animated fadeInRight" role="listbox">
+                  <div id="mdb-lightbox-ui"></div>
+
+                  <div class="carousel-item active">
+                    <div class="col-6 col-md-4">
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/vazopi-1.jpg" data-size="1602x1067">
+                          <img src="./assets/img/sablon/vazopi-1.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/vazopi-2.jpg" data-size="1602x1067">
+                          <img src="./assets/img/sablon/vazopi-2.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-6 col-md-4">
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/vazopi-3.jpg" data-size="1602x1067">
+                          <img src="./assets/img/sablon/vazopi-3.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/vazopi-4.jpg" data-size="1602x1067">
+                          <img src="./assets/img/sablon/vazopi-4.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-6 col-md-4">
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/simpang-s5.jpg" data-size="1280x843">
+                          <img src="./assets/img/sablon/simpang-s5.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/matchday.jpg" data-size="832x720">
+                          <img src="./assets/img/sablon/matchday.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-6 col-md-4">
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/kawansejalan.jpg" data-size="1398x1067">
+                          <img src="./assets/img/sablon/kawansejalan.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/kawansejalan2.jpg" data-size="1536x1067">
+                          <img src="./assets/img/sablon/kawansejalan2.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-6 col-md-4">
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/imy-persija.jpg" data-size="1280x852">
+                          <img src="./assets/img/sablon/imy-persija.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/amburadul.jpg" data-size="1544x666">
+                          <img src="./assets/img/sablon/amburadul.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-6 col-md-4">
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/kaos-1.jpg" data-size="1602x1067">
+                          <img src="./assets/img/sablon/kaos-1.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                      <figure class="col-12 d-md-inline-block mb-2">
+                        <a href="./assets/img/sablon/cat.jpg" data-size="1040x780">
+                          <img src="./assets/img/sablon/cat.jpg" class="img-fluid card">
+                        </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- div class="row row-cols-1 wow" id="portfolio" data-wow-delay="0.3s">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <div class="card-body p-0 pb-1">
+
+              <div id="carousel-with-lb" class="carousel slide carousel-multi-item animated fadeInUp" data-ride="carousel">
+                <div class="controls-top mt-3 mb-3">
+                  <h2 id="gallery-title">Gallery Sablon</h2>
+                </div>
+
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-with-lb" data-slide-to="0" class="active elegant-color-dark"></li>
+                  <li data-target="#carousel-with-lb" data-slide-to="1" class="elegant-color-dark"></li>
+                  <li data-target="#carousel-with-lb" data-slide-to="2" class="elegant-color-dark"></li>
+                </ol>
+
+                <div class="carousel-inner mdb-lightbox" role="listbox">
+                  <div id="mdb-lightbox-ui"></div>
+
+                  <div class=" carousel-item active text-center">
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(6).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(6).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(10).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(10).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(12).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(12).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(14).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(14).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(22).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(29).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(31).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(33).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(44).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(66).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(56).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 d-md-inline-block">
+                      <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(77).jpg" data-size="1600x1067">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(77).jpg" class="img-fluid">
+                      </a>
+                        <figcaption>Simpang Village - Sablon Manual | Est. MMXIX</figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div -->
+
+    </div>
+
+  </main>
+
+  <footer class="page-footer footer-tiles text-center text-md-left pt-4 mt-4" id="contact">
+    <!-- Footer Links -->
+    <div class="container mt-1 mb-2">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-xl-4 col-lg-4 mt-2 mb-1 wow fadeIn" data-wow-delay="0.3s">
+          <!-- About -->
+          <h5 class="text-uppercase mb-4"><strong>Simpang Village</strong></h5>
+          <p>Sablon Manual | Est. MMXIX
+          <div class="footer-socials">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/akhmadzm/" target="_blank" type="button" class="btn-floating red accent-4"><i class="fab fa-facebook-f"></i></a>
+            <!-- Instagram -->
+            <!-- a href="#" target="_blank" type="button" class="btn-floating red accent-4"><i class="fab fa-instagram"></i></a -->
+            <!-- Whatsapp -->
+            <a href="https://api.whatsapp.com/send?phone=0895379288255" target="_blank" type="button" class="btn-floating red accent-4"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+        <!-- Grid column -->
+        <div class="col-xl-4 ml-auto col-lg-4 mt-2 mb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+          <h5 class="text-uppercase mb-4"><strong>Alamat</strong></h5>
+          <!-- Info -->
+          <p><i class="fas fa-home mr-3"></i> Blok Simpang Tiga Desa Sleman,<span class="break-1"><br/><i class="fas fa-home mr-3"></i></span> Kec. Sliyeg, Indramayu.</p>
+          <p><i class="fas fa-envelope mr-3"></i> akhmadt9@gmail.com</p>
+          <p><i class="fas fa-phone mr-3"></i> +62 895 3792 88255</p>
+        </div>
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+        <!-- Grid column -->
+        <div class="col-xl-3 ml-auto col-lg-4 mt-2 mb-1 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+          <!-- Title -->
+          <h5 class="text-uppercase mb-4"><strong>Jam Buka</strong></h5>
+          <!-- Opening hours table -->
+          <table class="table footer-table text-center text-white">
+            <tbody>
+              <tr>
+                <td>Senin - Jumat :</td>
+                <td>8am - 8pm</td>
+              </tr>
+              <tr>
+                <td>Sabtu :</td>
+                <td>8am - 5pm</td>
+              </tr>
+              <tr>
+                <td>Minggu :</td>
+                <td>Libur</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+    <!-- Copyright -->
+    <div class="footer-copyright py-3 black text-center wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid"><small>© 2020, Simpang Village.</small></div>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/mdb.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+  </body>
+</html>
