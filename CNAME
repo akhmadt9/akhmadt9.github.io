@@ -1,7 +1,5 @@
+simpangvillage.store.
 simpangvillage.store.     3600    IN A     185.199.108.153
 simpangvillage.store.     3600    IN A     185.199.109.153
 simpangvillage.store.     3600    IN A     185.199.110.153
 simpangvillage.store.     3600    IN A     185.199.111.153
-
-simpangvillage.store.              3592    IN      CNAME   akhmadt9.github.io.
-www.simpangvillage.store.              3592    IN      CNAME   akhmadt9.github.io.
